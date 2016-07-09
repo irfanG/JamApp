@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  DzematApp
+
+  Created by Irfan Godinjak on 03/07/16.
+  Copyright © 2016 eu.devlogic. All rights reserved.
+*/
+//Login screen
+"EMAIL_ADDRESS" = "Email adresa";
+"PASSWORD" = "Šifra";
+"LOGIN_TITLE" = "Prijava";

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R7C-8f-95w">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="DzematApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="w2h-6Y-EiQ">
+                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="vQb-OD-vIC" customClass="TextFieldTVC" customModule="DzematApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="560" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vQb-OD-vIC" id="xad-Sz-G5Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="69.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="cLc-44-nl8"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="P6R-km-z4c"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w2h-6Y-EiQ" secondAttribute="bottom" id="d7F-Jm-Q9Z"/>
+                            <constraint firstItem="w2h-6Y-EiQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nQ1-Ey-ebk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w2h-6Y-EiQ" secondAttribute="trailing" id="p2S-Q1-7DS"/>
+                            <constraint firstItem="w2h-6Y-EiQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="z0h-KQ-qWb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VHa-1n-aNy"/>
+                    <connections>
+                        <outlet property="tableView" destination="w2h-6Y-EiQ" id="oLn-GX-MZm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="335"/>
+        </scene>
+        <!--RegistrationVC-->
+        <scene sceneID="uYL-6g-NY1">
+            <objects>
+                <viewController id="6nQ-NB-FDo" customClass="RegistrationVC" customModule="DzematApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jh3-Cu-6BS"/>
+                        <viewControllerLayoutGuide type="bottom" id="TQg-ty-YqW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XJv-gk-f2J">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uqn-uM-mJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1840" y="373"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Bf-NJ-Kcn">
+            <objects>
+                <viewController id="hqR-46-qMN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LKj-IE-a3Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="tin-Hl-eHS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3AQ-8x-gah">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ies-cM-dZO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2518" y="373"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tzd-7b-a8Y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="R7C-8f-95w" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iJi-3p-zFf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VOL-a6-rQQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGZ-Tp-H7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="1001"/>
+        </scene>
+    </scenes>
+</document>

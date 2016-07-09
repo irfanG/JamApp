@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CC909D2B95039079ABE8BF /* Pods_DzematApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA672E8D5AA9037ABE283F0 /* Pods_DzematApp.framework */; };
+		5475F8C71D28947300E7E2B9 /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5475F8C61D28947300E7E2B9 /* Objective-CBridgingHeader.m */; };
+		5475F8CB1D2895B700E7E2B9 /* TextFieldTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475F8C91D2895B700E7E2B9 /* TextFieldTVC.swift */; };
+		5475F8CC1D2895B700E7E2B9 /* TextFieldTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5475F8CA1D2895B700E7E2B9 /* TextFieldTVC.xib */; };
+		5475F8CE1D291BD800E7E2B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475F8CD1D291BD800E7E2B9 /* Constants.swift */; };
+		5475F8D21D293C6100E7E2B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5475F8D41D293C6100E7E2B9 /* Localizable.strings */; };
+		5480E5F91D287F15007C887C /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5480E5F81D287F15007C887C /* BaseVC.swift */; };
+		5491DEE81CDB276800EBC290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491DEE71CDB276800EBC290 /* AppDelegate.swift */; };
+		5491DEED1CDB276800EBC290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5491DEEB1CDB276800EBC290 /* Main.storyboard */; };
+		5491DEF01CDB276800EBC290 /* DzematApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5491DEEE1CDB276800EBC290 /* DzematApp.xcdatamodeld */; };
+		5491DEF21CDB276800EBC290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5491DEF11CDB276800EBC290 /* Assets.xcassets */; };
+		5491DEF51CDB276800EBC290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5491DEF31CDB276800EBC290 /* LaunchScreen.storyboard */; };
+		5491DEFD1CDB287E00EBC290 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491DEFC1CDB287E00EBC290 /* LoginVC.swift */; };
+		5491DEFF1CDB289400EBC290 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491DEFE1CDB289400EBC290 /* RegistrationVC.swift */; };
+		5491DF041CDB397500EBC290 /* DzUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491DF031CDB397500EBC290 /* DzUser.swift */; };
+		5491DF061CDB39AA00EBC290 /* DzDezemat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491DF051CDB39AA00EBC290 /* DzDezemat.swift */; };
+		549A33521D29EA2300092C34 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549A33511D29EA2300092C34 /* HeaderView.swift */; };
+		54D96D601D288372003B0084 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D96D5F1D288372003B0084 /* Extensions.swift */; };
+		54D96D621D288403003B0084 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D96D611D288403003B0084 /* UserDefaultManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CA672E8D5AA9037ABE283F0 /* Pods_DzematApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DzematApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AEDE66747078BE13E04FC9 /* Pods-DzematApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DzematApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DzematApp/Pods-DzematApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5475F8C51D28947300E7E2B9 /* DzematApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DzematApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		5475F8C61D28947300E7E2B9 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
+		5475F8C81D2894A300E7E2B9 /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
+		5475F8C91D2895B700E7E2B9 /* TextFieldTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTVC.swift; sourceTree = "<group>"; };
+		5475F8CA1D2895B700E7E2B9 /* TextFieldTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTVC.xib; sourceTree = "<group>"; };
+		5475F8CD1D291BD800E7E2B9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = DzematApp/Constants.swift; sourceTree = "<group>"; };
+		5475F8D31D293C6100E7E2B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5475F8D51D293C6500E7E2B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5475F8D61D293CC400E7E2B9 /* bs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bs; path = bs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5480E5F81D287F15007C887C /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		5491DEE41CDB276800EBC290 /* DzematApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DzematApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5491DEE71CDB276800EBC290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5491DEEC1CDB276800EBC290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5491DEEF1CDB276800EBC290 /* DzematApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DzematApp.xcdatamodel; sourceTree = "<group>"; };
+		5491DEF11CDB276800EBC290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5491DEF41CDB276800EBC290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5491DEF61CDB276800EBC290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5491DEFC1CDB287E00EBC290 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5491DEFE1CDB289400EBC290 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		5491DF031CDB397500EBC290 /* DzUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DzUser.swift; sourceTree = "<group>"; };
+		5491DF051CDB39AA00EBC290 /* DzDezemat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DzDezemat.swift; sourceTree = "<group>"; };
+		549A33511D29EA2300092C34 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		54D96D5F1D288372003B0084 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = DzematApp/Extensions.swift; sourceTree = "<group>"; };
+		54D96D611D288403003B0084 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultManager.swift; path = DzematApp/UserDefaultManager.swift; sourceTree = "<group>"; };
+		FB2BCC2CDDCC29AE1D6CBE24 /* Pods-DzematApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DzematApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DzematApp/Pods-DzematApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5491DEE11CDB276800EBC290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CC909D2B95039079ABE8BF /* Pods_DzematApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5475F8D11D29268300E7E2B9 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5475F8D41D293C6100E7E2B9 /* Localizable.strings */,
+				54D96D5F1D288372003B0084 /* Extensions.swift */,
+				54D96D611D288403003B0084 /* UserDefaultManager.swift */,
+				5475F8CD1D291BD800E7E2B9 /* Constants.swift */,
+			);
+			name = SupportFiles;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5491DEDB1CDB276800EBC290 = {
+			isa = PBXGroup;
+			children = (
+				5491DEE61CDB276800EBC290 /* DzematApp */,
+				5491DEE51CDB276800EBC290 /* Products */,
+				C6C13F6DB0C0880A07E362E7 /* Pods */,
+				ECA7871BF0D7D11610E623D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5491DEE51CDB276800EBC290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5491DEE41CDB276800EBC290 /* DzematApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5491DEE61CDB276800EBC290 /* DzematApp */ = {
+			isa = PBXGroup;
+			children = (
+				5491DF021CDB393300EBC290 /* Models */,
+				5491DEE71CDB276800EBC290 /* AppDelegate.swift */,
+				5491DEEB1CDB276800EBC290 /* Main.storyboard */,
+				5475F8C91D2895B700E7E2B9 /* TextFieldTVC.swift */,
+				5475F8CA1D2895B700E7E2B9 /* TextFieldTVC.xib */,
+				5491DEFC1CDB287E00EBC290 /* LoginVC.swift */,
+				549A33511D29EA2300092C34 /* HeaderView.swift */,
+				5491DEFE1CDB289400EBC290 /* RegistrationVC.swift */,
+				5480E5F81D287F15007C887C /* BaseVC.swift */,
+				5475F8C61D28947300E7E2B9 /* Objective-CBridgingHeader.m */,
+				5475F8C81D2894A300E7E2B9 /* Objective-CBridgingHeader.h */,
+				5475F8D11D29268300E7E2B9 /* SupportFiles */,
+				5491DEF11CDB276800EBC290 /* Assets.xcassets */,
+				5491DEF31CDB276800EBC290 /* LaunchScreen.storyboard */,
+				5491DEF61CDB276800EBC290 /* Info.plist */,
+				5491DEEE1CDB276800EBC290 /* DzematApp.xcdatamodeld */,
+				5475F8C51D28947300E7E2B9 /* DzematApp-Bridging-Header.h */,
+			);
+			path = DzematApp;
+			sourceTree = "<group>";
+		};
+		5491DF021CDB393300EBC290 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5491DF031CDB397500EBC290 /* DzUser.swift */,
+				5491DF051CDB39AA00EBC290 /* DzDezemat.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C6C13F6DB0C0880A07E362E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45AEDE66747078BE13E04FC9 /* Pods-DzematApp.debug.xcconfig */,
+				FB2BCC2CDDCC29AE1D6CBE24 /* Pods-DzematApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECA7871BF0D7D11610E623D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CA672E8D5AA9037ABE283F0 /* Pods_DzematApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5491DEE31CDB276800EBC290 /* DzematApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5491DEF91CDB276800EBC290 /* Build configuration list for PBXNativeTarget "DzematApp" */;
+			buildPhases = (
+				94B12197A557CEF0E338A3C5 /* [CP] Check Pods Manifest.lock */,
+				5491DEE01CDB276800EBC290 /* Sources */,
+				5491DEE11CDB276800EBC290 /* Frameworks */,
+				5491DEE21CDB276800EBC290 /* Resources */,
+				EB7CBD6DB0DE8CEA6F72DEAD /* [CP] Embed Pods Frameworks */,
+				6648E163474E027F2A0CF5BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DzematApp;
+			productName = DzematApp;
+			productReference = 5491DEE41CDB276800EBC290 /* DzematApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5491DEDC1CDB276800EBC290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = eu.devlogic;
+				TargetAttributes = {
+					5491DEE31CDB276800EBC290 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5491DEDF1CDB276800EBC290 /* Build configuration list for PBXProject "DzematApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				bs,
+			);
+			mainGroup = 5491DEDB1CDB276800EBC290;
+			productRefGroup = 5491DEE51CDB276800EBC290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5491DEE31CDB276800EBC290 /* DzematApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5491DEE21CDB276800EBC290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5475F8D21D293C6100E7E2B9 /* Localizable.strings in Resources */,
+				5491DEF51CDB276800EBC290 /* LaunchScreen.storyboard in Resources */,
+				5491DEF21CDB276800EBC290 /* Assets.xcassets in Resources */,
+				5491DEED1CDB276800EBC290 /* Main.storyboard in Resources */,
+				5475F8CC1D2895B700E7E2B9 /* TextFieldTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6648E163474E027F2A0CF5BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DzematApp/Pods-DzematApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B12197A557CEF0E338A3C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7CBD6DB0DE8CEA6F72DEAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DzematApp/Pods-DzematApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5491DEE01CDB276800EBC290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491DEE81CDB276800EBC290 /* AppDelegate.swift in Sources */,
+				5491DF061CDB39AA00EBC290 /* DzDezemat.swift in Sources */,
+				5475F8CB1D2895B700E7E2B9 /* TextFieldTVC.swift in Sources */,
+				5475F8C71D28947300E7E2B9 /* Objective-CBridgingHeader.m in Sources */,
+				5491DEFD1CDB287E00EBC290 /* LoginVC.swift in Sources */,
+				54D96D601D288372003B0084 /* Extensions.swift in Sources */,
+				5480E5F91D287F15007C887C /* BaseVC.swift in Sources */,
+				54D96D621D288403003B0084 /* UserDefaultManager.swift in Sources */,
+				5491DEFF1CDB289400EBC290 /* RegistrationVC.swift in Sources */,
+				5491DF041CDB397500EBC290 /* DzUser.swift in Sources */,
+				5491DEF01CDB276800EBC290 /* DzematApp.xcdatamodeld in Sources */,
+				5475F8CE1D291BD800E7E2B9 /* Constants.swift in Sources */,
+				549A33521D29EA2300092C34 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5475F8D41D293C6100E7E2B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5475F8D31D293C6100E7E2B9 /* Base */,
+				5475F8D51D293C6500E7E2B9 /* en */,
+				5475F8D61D293CC400E7E2B9 /* bs */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5491DEEB1CDB276800EBC290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5491DEEC1CDB276800EBC290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5491DEF31CDB276800EBC290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5491DEF41CDB276800EBC290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5491DEF71CDB276800EBC290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5491DEF81CDB276800EBC290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5491DEFA1CDB276800EBC290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AEDE66747078BE13E04FC9 /* Pods-DzematApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DzematApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.devlogic.DzematApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DzematApp/DzematApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5491DEFB1CDB276800EBC290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2BCC2CDDCC29AE1D6CBE24 /* Pods-DzematApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DzematApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.devlogic.DzematApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DzematApp/DzematApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5491DEDF1CDB276800EBC290 /* Build configuration list for PBXProject "DzematApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5491DEF71CDB276800EBC290 /* Debug */,
+				5491DEF81CDB276800EBC290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5491DEF91CDB276800EBC290 /* Build configuration list for PBXNativeTarget "DzematApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5491DEFA1CDB276800EBC290 /* Debug */,
+				5491DEFB1CDB276800EBC290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5491DEEE1CDB276800EBC290 /* DzematApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5491DEEF1CDB276800EBC290 /* DzematApp.xcdatamodel */,
+			);
+			currentVersion = 5491DEEF1CDB276800EBC290 /* DzematApp.xcdatamodel */;
+			path = DzematApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5491DEDC1CDB276800EBC290 /* Project object */;
+}
